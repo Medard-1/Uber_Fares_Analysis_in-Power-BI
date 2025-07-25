@@ -241,7 +241,7 @@ This project aims to explore ride fares, time patterns, and geographic distribut
             plt.show()
 
   ```
-### Code screenshots
+### Screenshots of output diagrams
 ![<img width="806" height="247" alt="code Dia1" src="https://github.com/user-attachments/assets/8a7af29f-b651-4cc2-a2ab-11ec9ebef2c6" />]
 ![<img width="743" height="588" alt="code Dia2" src="https://github.com/user-attachments/assets/29ad62be-a9a8-4839-8539-200fa803734b" />
 ]
