@@ -41,6 +41,9 @@ This project aims to explore ride fares, time patterns, and geographic distribut
   print(df.info())
 
   ```
+### Output
+![<img width="619" height="578" alt="out1" src="https://github.com/user-attachments/assets/4b60eaee-72a9-42fc-87d9-aad52a4dea1d" />
+]
 - **🧹 Data Cleaning**:
   - Missing values removed
   - Datetime fields converted
@@ -82,6 +85,9 @@ This project aims to explore ride fares, time patterns, and geographic distribut
       print("\nCleaned dataset saved as 'cleaned_uber.csv'")
 
     ```
+  ### Output
+  ![<img width="487" height="558" alt="out2" src="https://github.com/user-attachments/assets/fa069864-5859-4350-974d-b7d4cb961596" />
+]
   - Outliers detected using IQR,Mean, median, mode, standard deviation, quartiles
     ```python
     import pandas as pd
@@ -132,6 +138,9 @@ This project aims to explore ride fares, time patterns, and geographic distribut
        print(f"{col}: {len(outliers)} outlier(s)")
 
     ```
+### Output
+![<img width="678" height="579" alt="out3" src="https://github.com/user-attachments/assets/7fad57d0-1bb1-4997-b2c2-005f450d7e2d" />
+]
 - **🧠 Feature Engineering**:
   - Extracted `hour`, `day`, `month`, and `weekday` from `pickup_datetime`
   - Created `peak/off-peak` time categories
