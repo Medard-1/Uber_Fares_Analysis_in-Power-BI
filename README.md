@@ -242,28 +242,34 @@ This project aims to explore ride fares, time patterns, and geographic distribut
 
 
 - **📤 Export**: Cleaned dataset saved as `cleaned_uber.csv`
-- **📈 Visualization**: Dashboard built in Power BI
+  ```python
+     import pandas as pd
 
----
+     # Assuming you've already cleaned your data as df_cleaned
+     # If not, reload the cleaned version from previous steps
+     # df_cleaned = pd.read_csv('archive/uber.csv')
+     # (Perform cleaning steps again if necessary)
 
-### 🟨 3. Analysis
+     # Export the cleaned DataFrame to CSV
+     df_cleaned.to_csv('cleaned_uber.csv', index=False)
 
+     print("Cleaned dataset successfully exported as 'cleaned_uber.csv'")
 
-- **Distributions**: Histograms for fare amounts, time breakdowns
-
-- **Relationships**:
-  - Fare vs. Distance
-  - Fare vs. Time of Day
-  - Rides across hours, days, and months
-
----
-
-### 🟥 4. Results
+  ```
+### 🟥 4. Results and  Dashboard built in Power BI
 
 - Fares are higher during **evening hours and weekends**
 - Most rides are short-distance, frequent, and concentrated in urban areas
 - Fare amount shows moderate correlation with distance
 - **Rush hour** and **late-night** periods show spikes in both fare and volume
+### Screenshot of Charts created
+![<img width="968" height="531" alt="charts" src="https://github.com/user-attachments/assets/ee485c01-3109-43a8-af19-f0dbcd9d8478" />
+]
+### Professional Dashboards built in Power BI
+![<img width="965" height="527" alt="Dashboard1" src="https://github.com/user-attachments/assets/7b0c4a9d-a8c9-4c78-9017-e60ba75d51aa" />
+]
+![<img width="957" height="519" alt="Dashboard2" src="https://github.com/user-attachments/assets/116c8036-e2ac-492c-b744-69c2d8238a97" />
+]
 
 ---
 
@@ -282,5 +288,5 @@ The project successfully highlights Uber ride behavior based on time and fare pa
 
 ---
 
-## 📁 Project Structure
+## THANK YOU
 
