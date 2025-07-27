@@ -27,6 +27,7 @@ This project aims to explore ride fares, time patterns, and geographic distribut
 ### 🟩 2. Methodology
 
 - **📥 Data Collection**: Dataset downloaded from [Kaggle](https://www.kaggle.com/datasets/yasserh/uber-fares-dataset)
+- I also loaded the Uber Fares Dataset into a Pandas DataFrame using Python
   ```python
   # Step 1: Import pandas
     import pandas as pd
